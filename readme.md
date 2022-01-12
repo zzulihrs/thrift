@@ -1,14 +1,16 @@
 当前的目录文件结构如下
-`-- thrift_lesson
+```
+-- thrift_lesson
     |-- game
-    |   `-- src
+    |   -- src
     |-- match_system
-    |   `-- src 
+    |   -- src 
     |-- readme.md
-    `-- thrift
+    -- thrift
         |-- match.thrift
-        `-- save.thrift
+         -- save.thrift
 
+```
 (0) 进入thrift_lesson/match_system/src/目录，用cpp实现的match-server和save-client逻辑。
 接口文件在thrift_lesson/thrift/中。
 实现后启动server，监听端口9090。
